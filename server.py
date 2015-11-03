@@ -8,7 +8,7 @@ else:
     import SimpleHTTPServer as server
     import SocketServer as socketserver
 
-PORT = 8888
+PORT = 8000
 Handler = server.SimpleHTTPRequestHandler
 httpd = socketserver.TCPServer(("", PORT), Handler)
 
